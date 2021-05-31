@@ -1,0 +1,240 @@
+body{
+    font-family: "Avenir Next";
+    margin: 0;
+}
+.container{
+
+}
+
+
+
+.header{
+    background-color:rgb(117, 91, 61);
+    height:45px;
+}
+
+
+.header-logo{
+    color:white;
+    font-size:20px;
+    font-family:sans-serif;
+    padding: 10px 10px;
+}
+
+
+main{
+    background-color: rgb(255, 255, 255);
+    height: max-content;
+}
+
+
+.title{
+    padding: 200px 200px;
+    background-image: url(oshityekku.jpg);
+    display: flex;
+    
+    justify-content: center;
+}
+
+
+h1{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 4px solid rgb(255, 255, 255);
+    font-weight: bold;
+    width: 300px;
+    padding: 12px 0;
+    line-height: 1;
+    margin: 12px 0;
+    
+    border-radius: 10px;
+    font-size: 50px;
+    
+}
+
+
+.contents-title{
+  text-align: center;
+  font-weight: bold;
+  padding: 0.25em 0;
+  text-decoration: none;
+  color: #462f0e;  
+  font-size: 40px;
+  border-bottom: dashed 3px rgb(206, 183, 141);
+  margin: 20px;
+}
+
+
+
+.member{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+
+.member-icon img {
+    border-radius: 50%; 
+    width:  180px;      
+    height: 180px;  
+    padding: 30px;
+    
+    
+}
+
+.mastodon-link {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #FFF;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: inset 0 2px 0px rgba(255, 255, 255, 0.25), inset 0 -2px 0px rgba(0, 0, 0, 0.18);
+    transition: .2s;
+    margin: 10px;
+  }
+  .mastodon-link .fa {
+    line-height: 30px;
+  }
+  .mastodon-link:hover {
+    box-shadow: none;
+  }
+  .mastodon-link {
+    background: #2797dd;
+    border: solid 5px #2797dd;
+  }
+
+
+  
+.member-p{
+    text-align: justify;
+    text-justify: inter-ideograph;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.txt-contents{
+    width: 260px;
+    text-align: left;
+    font-size: 15px;
+ 
+}
+
+
+.history{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   position: relative;
+   margin: 100px 100px;
+    
+    
+}
+.history-p{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 17px;
+    line-height: 150%;
+    
+    
+    
+    
+
+
+}
+.yajirusi{
+    text-orientation: sideways;
+}
+
+.num{
+    text-orientation: upright;
+    
+	-ms-text-combine-horizontal: all;
+	-webkit-text-combine: horizontal;
+	text-combine-upright: all;
+	line-height: 1;
+	vertical-align: baseline;
+ 
+    }
+
+.douga-link-husshi{
+    color: red;
+}
+
+.douga-link-imachan{
+    color: orange;
+}
+
+.douga-link-sanoani{
+    color: green;
+}
+
+.douga-link-sakura{
+    color: blue;
+}
+
+
+.another{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    }
+
+.another-contents{
+    text-align: center;
+    height: 350px;
+    width: 500px;
+    margin: 64px;
+}
+
+.another-p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.goods{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    text-align: center;
+    padding: 40px;
+}
+
+.goods-p{
+    text-align: center;
+
+}
+
+
+
+
+.pixel-icon img{
+    border-radius: 50%; 
+    width:  50px;      
+    height: 50px; 
+
+}
+
+.footer-img{
+    text-align: center;
+}
+.footer-img img{
+    
+    width:  500px;      
+     
+
+    
+}
+
